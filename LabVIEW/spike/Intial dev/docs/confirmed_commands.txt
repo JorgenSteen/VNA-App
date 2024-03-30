@@ -1,0 +1,1 @@
+HEX: D, Respons: 32, comment: basic command gives "2" 
