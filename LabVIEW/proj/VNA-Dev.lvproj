@@ -24,21 +24,25 @@
 			<Item Name="TypeDef" Type="Folder"/>
 			<Item Name="vi" Type="Folder"/>
 		</Item>
+		<Item Name="common" Type="Folder">
+			<Item Name="CF-common_features.lvlib" Type="Library" URL="../../common/features/CF-common_features.lvlib"/>
+			<Item Name="CI-common_interface.lvclass" Type="LVClass" URL="../../common/interface/CI-common_interface.lvclass"/>
+		</Item>
 		<Item Name="gui" Type="Folder">
 			<Item Name="VG-VNA_GUI.lvlib" Type="Library" URL="../../actor/GUI/VG-VNA_GUI/VG-VNA_GUI.lvlib"/>
 		</Item>
 		<Item Name="handler" Type="Folder">
 			<Item Name="VDH-VNA_data_handler.lvlib" Type="Library" URL="../../actor/data_handler/VDH-VNA_data_handler/VDH-VNA_data_handler.lvlib"/>
+			<Item Name="VDHI-VNA_data_handler_interface.lvlib" Type="Library" URL="../../actor/data_handler/Interface/VDHI-VNA_data_handler_interface.lvlib"/>
 		</Item>
 		<Item Name="hardware" Type="Folder">
 			<Item Name="HP-S-Serial.lvclass" Type="LVClass" URL="../../classes/hardware-protocol/serial/HP-S-Serial.lvclass"/>
 			<Item Name="VD-LV-LiteVNA.lvclass" Type="LVClass" URL="../../classes/vna-drivers/liteVNA/VD-LV-LiteVNA.lvclass"/>
 			<Item Name="VHM-VNA_Hardware_Manager.lvlib" Type="Library" URL="../../actor/hardware_manager/VHM-VNA_Hardware_Manager/VHM-VNA_Hardware_Manager.lvlib"/>
+			<Item Name="VHMI-VNA_Hardware_manager_Interface.lvlib" Type="Library" URL="../../actor/hardware_manager/interface/VHMI-VNA_Hardware_manager_Interface.lvlib"/>
 		</Item>
 		<Item Name="hmm" Type="Folder">
-			<Item Name="Untitled 2.vi" Type="VI" URL="../../actor/hardware_manager/Untitled 2.vi"/>
 			<Item Name="VC-VNA_handler.lvclass" Type="LVClass" URL="../../classes/VNA_handler/VC-VNA_handler.lvclass"/>
-			<Item Name="VNA-Common.lvlib" Type="Library" URL="../../common/VNA-Common.lvlib"/>
 		</Item>
 		<Item Name="root" Type="Folder">
 			<Item Name="VR-VNA_root.lvlib" Type="Library" URL="../../actor/root/VR-VNA_root/VR-VNA_root.lvlib"/>
@@ -51,6 +55,7 @@
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -101,9 +106,6 @@
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Serial - ASCII Characters.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - ASCII Characters.ctl"/>
-			<Item Name="Serial - Settings.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
-			<Item Name="Serial - XON-XOFF Characters.ctl" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - XON-XOFF Characters.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
