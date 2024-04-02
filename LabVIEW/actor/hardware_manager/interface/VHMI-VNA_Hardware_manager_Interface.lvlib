@@ -7,6 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="VHMI-recieveConnectionInfo Msg.lvclass" Type="LVClass" URL="../../VHMI-VNA_Hardware_manager_Interface Messages/VHMI-recieveConnectionInfo Msg/VHMI-recieveConnectionInfo Msg.lvclass"/>
 		<Item Name="VHMI-recieveData Msg.lvclass" Type="LVClass" URL="../../VHMI-VNA_Hardware_manager_Interface Messages/VHMI-recieveData Msg/VHMI-recieveData Msg.lvclass"/>
+		<Item Name="VHMI-recieveSettings Msg.lvclass" Type="LVClass" URL="../../VHMI-VNA_Hardware_manager_Interface Messages/VHMI-recieveSettings Msg/VHMI-recieveSettings Msg.lvclass"/>
 	</Item>
 	<Item Name="VHMI-VNA_Hardware_manager_Interface.lvclass" Type="LVClass" URL="../VHMI-VNA_Hardware_manager_Interface.lvclass"/>
 </Library>
