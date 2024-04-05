@@ -1,0 +1,13 @@
+[metadata]
+software info = "LabVIEW"
+date = "\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00"
+comment = "comment"
+device = "NANO"
+
+[signal info]
+Start = "5660.000000"
+Stop = "566000.000000"
+Points = "101"
+
+[fileinfo]
+S-Parameter = "F S11"

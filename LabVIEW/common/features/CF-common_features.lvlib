@@ -5,5 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="TypeDef" Type="Folder"/>
-	<Item Name="vi" Type="Folder"/>
+	<Item Name="vi" Type="Folder">
+		<Item Name="CF-check_file_path.vi" Type="VI" URL="../CF-check_file_path.vi"/>
+		<Item Name="CF-store_error.vi" Type="VI" URL="../CF-store_error.vi"/>
+	</Item>
 </Library>
