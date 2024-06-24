@@ -32,4 +32,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="VHDI-savingStatus.vi" Type="VI" URL="../VHDI-savingStatus.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*\!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(R!=!!?!!"0*6:%3%EN6EZ"8W2B&gt;'&amp;@;'&amp;O:'RF=F^J&lt;H2F=G:B9W5O&lt;(:M;7)H6E2)33V74E&amp;@:'&amp;U96^I97ZE&lt;'6S8WFO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!#.72%B*,6:/16^E982B8WBB&lt;G2M:8*@;7ZU:8*G97.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&gt;!"1!1:'&amp;U93"Q&lt;WFO&gt;(-A&lt;'6G&gt;!!!$%!B"V.B&gt;GFO:T]!&amp;%!S`````QN'&lt;WRE:8)A5'&amp;U;!!31$$`````#':J&lt;'6O97VF!!"^!0%!!!!!!!!!!RJ72%AN6EZ"8W2B&gt;'&amp;@;'&amp;O:'RF=CZM&gt;GRJ9BR72%AN6EZ"8W2B&gt;'&amp;@;'&amp;O:'RF=CZM&gt;G.M98.T'&amp;:%3#VE982B8X.B&gt;GFO:V^J&lt;G:P,G.U&lt;!!E1&amp;!!"!!(!!A!#1!+%'2B&gt;'%A=W&amp;W;7ZH)'FO:G]!!(R!=!!?!!"0*6:%3%EN6EZ"8W2B&gt;'&amp;@;'&amp;O:'RF=F^J&lt;H2F=G:B9W5O&lt;(:M;7)H6E2)33V74E&amp;@:'&amp;U96^I97ZE&lt;'6S8WFO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!#*72%B*,6:/16^E982B8WBB&lt;G2M:8*@;7ZU:8*G97.F)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!M!$!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+	</Item>
 </LVClass>

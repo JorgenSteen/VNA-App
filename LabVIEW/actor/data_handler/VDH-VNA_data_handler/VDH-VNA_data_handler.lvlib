@@ -8,6 +8,8 @@
 		<Item Name="VDH-generateCalibrationSOLT Msg.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler Messages/VDH-generateCalibrationSOLT Msg/VDH-generateCalibrationSOLT Msg.lvclass"/>
 		<Item Name="VDH-loadCalibration Msg.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler Messages/VDH-loadCalibration Msg/VDH-loadCalibration Msg.lvclass"/>
 		<Item Name="VDH-RequestCalibration Msg.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler Messages/VDH-RequestCalibration Msg/VDH-RequestCalibration Msg.lvclass"/>
+		<Item Name="VDH-RequestSaveData Msg.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler Messages/VDH-RequestSaveData Msg/VDH-RequestSaveData Msg.lvclass"/>
+		<Item Name="VDH-RequestStopSaveData Msg.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler Messages/VDH-RequestStopSaveData Msg/VDH-RequestStopSaveData Msg.lvclass"/>
 		<Item Name="VDH-storeCalibration Msg.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler Messages/VDH-storeCalibration Msg/VDH-storeCalibration Msg.lvclass"/>
 	</Item>
 	<Item Name="VDH-VNA_data_handler.lvclass" Type="LVClass" URL="../VDH-VNA_data_handler/VDH-VNA_data_handler.lvclass"/>

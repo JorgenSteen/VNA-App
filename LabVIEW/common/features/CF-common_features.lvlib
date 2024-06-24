@@ -6,7 +6,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="TypeDef" Type="Folder"/>
 	<Item Name="vi" Type="Folder">
+		<Item Name="CF-calibration_filepath.vi" Type="VI" URL="../CF-calibration_filepath.vi"/>
 		<Item Name="CF-check_file_path.vi" Type="VI" URL="../CF-check_file_path.vi"/>
+		<Item Name="CF-common_filepath.vi" Type="VI" URL="../CF-common_filepath.vi"/>
 		<Item Name="CF-store_error.vi" Type="VI" URL="../CF-store_error.vi"/>
 	</Item>
 </Library>

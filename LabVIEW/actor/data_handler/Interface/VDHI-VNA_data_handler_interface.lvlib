@@ -7,6 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="VHDI-recieveCalibrationStatus Msg.lvclass" Type="LVClass" URL="../../VDHI-VNA_data_handler_interface Messages/VHDI-recieveCalibrationStatus Msg/VHDI-recieveCalibrationStatus Msg.lvclass"/>
 		<Item Name="VHDI-recieveData Msg.lvclass" Type="LVClass" URL="../../VDHI-VNA_data_handler_interface Messages/VHDI-recieveData Msg/VHDI-recieveData Msg.lvclass"/>
+		<Item Name="VHDI-savingStatus Msg.lvclass" Type="LVClass" URL="../../VDHI-VNA_data_handler_interface Messages/VHDI-savingStatus Msg/VHDI-savingStatus Msg.lvclass"/>
 	</Item>
 	<Item Name="VDHI-VNA_data_handler_interface.lvclass" Type="LVClass" URL="../VDHI-VNA_data_handler_interface.lvclass"/>
 </Library>
