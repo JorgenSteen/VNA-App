@@ -63,7 +63,13 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+				<Item Name="Adjust for Labels.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Adjust for Labels.vi"/>
+				<Item Name="Adjust Smith Scales.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Adjust Smith Scales.vi"/>
+				<Item Name="Almost Equal.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Almost Equal.vi"/>
+				<Item Name="Almost In Range.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Almost In Range.vi"/>
+				<Item Name="Angle In Range.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Angle In Range.VI"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Autoscale Smith as Needed.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Autoscale Smith as Needed.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
@@ -72,6 +78,7 @@
 				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Circle from 3 Points.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Circle from 3 Points.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -82,19 +89,55 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Draw Arc as Line.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Arc as Line.VI"/>
+				<Item Name="Draw Arc as PolyLine.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Arc as PolyLine.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="Draw Circle Segments.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Circle Segments.vi"/>
+				<Item Name="Draw Clipped Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Clipped Arc.vi"/>
+				<Item Name="Draw Clipped Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Clipped Line.vi"/>
+				<Item Name="Draw Clipped R-Curve.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Clipped R-Curve.vi"/>
+				<Item Name="Draw Clipped Smith Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Clipped Smith Line.vi"/>
+				<Item Name="Draw Clipped X-Curve.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Clipped X-Curve.vi"/>
+				<Item Name="Draw Coordinate Text.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Coordinate Text.vi"/>
+				<Item Name="Draw DBL Arc.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw DBL Arc.VI"/>
+				<Item Name="Draw Exact Arc for PC.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Exact Arc for PC.VI"/>
+				<Item Name="Draw Exact Arc.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Exact Arc.VI"/>
+				<Item Name="Draw Grids for Smith Chart.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Grids for Smith Chart.vi"/>
+				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
+				<Item Name="Draw Oval.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Oval.vi"/>
+				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
+				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
+				<Item Name="Draw Smith Coordinates.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Smith Coordinates.vi"/>
+				<Item Name="Draw Smith Grid.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Smith Grid.vi"/>
+				<Item Name="Draw Smith Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Smith Plot.vi"/>
+				<Item Name="Draw Smith Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Smith Point.vi"/>
+				<Item Name="Draw Smith PolyLine.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Smith PolyLine.vi"/>
+				<Item Name="Draw Standard Smith Grid.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Draw Standard Smith Grid.vi"/>
+				<Item Name="Draw Text in Rect(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect(6_1).vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Find R-Grid through {h,v}.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Find R-Grid through {h,v}.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Find X-Grid through {h,v}.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Find X-Grid through {h,v}.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="From PC Angle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/From PC Angle.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Generate R-Curves.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Generate R-Curves.vi"/>
+				<Item Name="Generate X-Curves.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Generate X-Curves.VI"/>
+				<Item Name="Get Clipped Circle Segment.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Get Clipped Circle Segment.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Get Range Of Smith Plots.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Get Range Of Smith Plots.vi"/>
+				<Item Name="Get Scale Range of Smith Ln.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Get Scale Range of Smith Ln.vi"/>
+				<Item Name="Get Smith Display Attributes.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Get Smith Display Attributes.vi"/>
+				<Item Name="Get Smith Grids.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Get Smith Grids.vi"/>
+				<Item Name="Get Smith Line Angles.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Get Smith Line Angles.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Get VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library File Info.vi"/>
@@ -103,6 +146,8 @@
 				<Item Name="Has LLB Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Has LLB Extension.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Largest R-Curve in Range.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Largest R-Curve in Range.vi"/>
+				<Item Name="Largest X-Curve in Range.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Largest X-Curve in Range.vi"/>
 				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
@@ -118,15 +163,23 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Map (r,x).VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Map (r,x).VI"/>
+				<Item Name="Map Coordinates.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Map Coordinates.vi"/>
+				<Item Name="Map Setup.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Setup.vi"/>
+				<Item Name="Map Value to Pixel.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Value to Pixel.vi"/>
+				<Item Name="Max &amp; Min X-Curves in Range.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Max &amp; Min X-Curves in Range.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Normalize Smith Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Normalize Smith Plot.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
+				<Item Name="R Angle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/R Angle.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
@@ -135,11 +188,20 @@
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Sect Arc Segments.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Sect Arc Segments.vi"/>
+				<Item Name="Sect R-Curve with Horiz Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Sect R-Curve with Horiz Line.vi"/>
+				<Item Name="Sect R-Curve with Vert Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Sect R-Curve with Vert Line.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
 				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Shuffle 1D Array.vim"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Smallest R-Curve in Range.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Smallest R-Curve in Range.vi"/>
+				<Item Name="Smallest X-Curve in Range.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Smallest X-Curve in Range.vi"/>
+				<Item Name="Smith Multi Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Smith Multi Plot.vi"/>
+				<Item Name="Smith Plot Style.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Smith Plot Style.ctl"/>
+				<Item Name="Smith Plot.vi" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/Smith Plot.vi"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -150,6 +212,7 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
+				<Item Name="To PC Angle.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/To PC Angle.VI"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
@@ -162,6 +225,7 @@
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="X Angle.VI" Type="VI" URL="/&lt;vilib&gt;/picture/smith.llb/X Angle.VI"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
