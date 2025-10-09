@@ -55,6 +55,7 @@
 		</Item>
 		<Item Name="compare  R140.vi" Type="VI" URL="../compare  R140.vi"/>
 		<Item Name="funny average complex.vi" Type="VI" URL="../funny average complex.vi"/>
+		<Item Name="math divide compare.vi" Type="VI" URL="../../../Recording/minivna/Test-Vann/record/math divide compare.vi"/>
 		<Item Name="raw data saltwater.vi" Type="VI" URL="../raw data saltwater.vi"/>
 		<Item Name="VFH-VNA_File_Handler.lvlib" Type="Library" URL="../../common/record_file_handler/VFH-VNA_File_Handler.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
