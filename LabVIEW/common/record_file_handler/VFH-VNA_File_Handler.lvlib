@@ -13,11 +13,24 @@
 		<Item Name="VFH-file_cluster-R140.ctl" Type="VI" URL="../VFH-file_cluster-R140.ctl"/>
 	</Item>
 	<Item Name="vi" Type="Folder">
+		<Item Name="Handle" Type="Folder">
+			<Item Name="VFH-generate_water_calibration_file.vi" Type="VI" URL="../VFH-generate_water_calibration_file.vi"/>
+			<Item Name="VFH-get_water_data.vi" Type="VI" URL="../VFH-get_water_data.vi"/>
+		</Item>
 		<Item Name="reading" Type="Folder">
+			<Item Name="VFH-compare_data.vi" Type="VI" URL="../VFH-compare_data.vi"/>
+			<Item Name="VFH-data_handle-cut_out_part.vi" Type="VI" URL="../VFH-data_handle-cut_out_part.vi"/>
+			<Item Name="VFH-data_handle-find_step_change.vi" Type="VI" URL="../VFH-data_handle-find_step_change.vi"/>
+			<Item Name="VFH-file_cluster-r140_water.ctl" Type="VI" URL="../VFH-file_cluster-r140_water.ctl"/>
+			<Item Name="VFH-file_handle-convert_r140.vi" Type="VI" URL="../VFH-file_handle-convert_r140.vi"/>
+			<Item Name="VFH-interpolate_align.vi" Type="VI" URL="../VFH-interpolate_align.vi"/>
+			<Item Name="VFH-r140_probe_values.vi" Type="VI" URL="../VFH-r140_probe_values.vi"/>
 			<Item Name="VFH-read_file-Excel.vi" Type="VI" URL="../VFH-read_file-Excel.vi"/>
 			<Item Name="VFH-read_file-LabVIEW.vi" Type="VI" URL="../VFH-read_file-LabVIEW.vi"/>
+			<Item Name="VFH-read_file-libreVNA.vi" Type="VI" URL="../VFH-read_file-libreVNA.vi"/>
 			<Item Name="VFH-read_file-NanoVNA.vi" Type="VI" URL="../VFH-read_file-NanoVNA.vi"/>
 			<Item Name="VFH-read_file-R140.vi" Type="VI" URL="../VFH-read_file-R140.vi"/>
+			<Item Name="VFH-read_file-R140_waterfile.vi" Type="VI" URL="../VFH-read_file-R140_waterfile.vi"/>
 			<Item Name="VFH-read_folder-LabVIEW.vi" Type="VI" URL="../VFH-read_folder-LabVIEW.vi"/>
 			<Item Name="VFH-read_folder-nanoVNA.vi" Type="VI" URL="../VFH-read_folder-nanoVNA.vi"/>
 		</Item>
