@@ -55,6 +55,7 @@
 		<Item Name="Modules" Type="Folder">
 			<Item Name="filehandler" Type="Folder"/>
 			<Item Name="FV-file_viewer.lvlib" Type="Library" URL="../../common/file Viewer/FV-file_viewer.lvlib"/>
+			<Item Name="RFH-Reflection_File_Handler.lvlib" Type="Library" URL="../../Tools/Reflector/RFH-Reflection_File_Handler.lvlib"/>
 			<Item Name="VFH-VNA_File_Handler.lvlib" Type="Library" URL="../../common/record_file_handler/VFH-VNA_File_Handler.lvlib"/>
 		</Item>
 		<Item Name="root" Type="Folder">
