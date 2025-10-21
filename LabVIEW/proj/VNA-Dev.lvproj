@@ -50,13 +50,14 @@
 			<Item Name="VHMI-VNA_Hardware_manager_Interface.lvlib" Type="Library" URL="../../actor/hardware_manager/interface/VHMI-VNA_Hardware_manager_Interface.lvlib"/>
 		</Item>
 		<Item Name="hmm" Type="Folder">
+			<Item Name="FV-file_viewer.lvlib" Type="Library" URL="../../common/file Viewer/FV-file_viewer.lvlib"/>
 			<Item Name="VC-VNA_handler.lvclass" Type="LVClass" URL="../../classes/VNA_handler/VC-VNA_handler.lvclass"/>
+			<Item Name="VFH-VNA_File_Handler.lvlib" Type="Library" URL="../../common/record_file_handler/VFH-VNA_File_Handler.lvlib"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="filehandler" Type="Folder"/>
-			<Item Name="FV-file_viewer.lvlib" Type="Library" URL="../../common/file Viewer/FV-file_viewer.lvlib"/>
+			<Item Name="RDV-Reflection_Data_viewer.lvclass" Type="LVClass" URL="../../classes/data viewer/RDV-Reflection_Data_viewer.lvclass"/>
 			<Item Name="RFH-Reflection_File_Handler.lvlib" Type="Library" URL="../../Tools/Reflector/RFH-Reflection_File_Handler.lvlib"/>
-			<Item Name="VFH-VNA_File_Handler.lvlib" Type="Library" URL="../../common/record_file_handler/VFH-VNA_File_Handler.lvlib"/>
 		</Item>
 		<Item Name="root" Type="Folder">
 			<Item Name="VR-VNA_root.lvlib" Type="Library" URL="../../actor/root/VR-VNA_root/VR-VNA_root.lvlib"/>
