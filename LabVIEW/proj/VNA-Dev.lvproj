@@ -51,6 +51,8 @@
 		</Item>
 		<Item Name="hmm" Type="Folder">
 			<Item Name="FV-file_viewer.lvlib" Type="Library" URL="../../common/file Viewer/FV-file_viewer.lvlib"/>
+			<Item Name="FV-Running_average.vi" Type="VI" URL="../../common/file Viewer/FV-Running_average.vi"/>
+			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="VC-VNA_handler.lvclass" Type="LVClass" URL="../../classes/VNA_handler/VC-VNA_handler.lvclass"/>
 			<Item Name="VFH-VNA_File_Handler.lvlib" Type="Library" URL="../../common/record_file_handler/VFH-VNA_File_Handler.lvlib"/>
 		</Item>
@@ -64,8 +66,6 @@
 			<Item Name="RDV-Reflection_Data_viewer.lvclass" Type="LVClass" URL="../../Tools/Data Viewer/RDV-Reflection_Data_viewer.lvclass"/>
 			<Item Name="RFH-Reflection_File_Handler.lvlib" Type="Library" URL="../../Tools/Reflector/RFH-Reflection_File_Handler.lvlib"/>
 		</Item>
-		<Item Name="FV-Running_average.vi" Type="VI" URL="../../common/file Viewer/FV-Running_average.vi"/>
-		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
