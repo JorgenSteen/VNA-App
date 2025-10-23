@@ -1,5 +1,5 @@
 ! R140 Conversion
-! Date: 2025-10-17 15:59:07
+! Date: 2025-10-23 15:59:09
 ! Start: 200.00MHz  Stop: 8.50GHz  Points: 167
  ! S-Parameter data: F S11 e
 # Hz S RI R 50

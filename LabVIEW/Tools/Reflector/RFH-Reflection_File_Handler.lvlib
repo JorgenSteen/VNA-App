@@ -20,6 +20,10 @@
 		<Item Name="RFH-read_folder-common_format.vi" Type="VI" URL="../RFH-read_folder-common_format.vi"/>
 		<Item Name="RFH-save-common_format.vi" Type="VI" URL="../RFH-save-common_format.vi"/>
 	</Item>
+	<Item Name="Test" Type="Folder">
+		<Item Name="RFH-test-write_readback.vi" Type="VI" URL="../RFH-test-write_readback.vi"/>
+		<Item Name="RFH-test.vi" Type="VI" URL="../RFH-test.vi"/>
+	</Item>
 	<Item Name="typedef" Type="Folder">
 		<Item Name="RFH-common_data_format.ctl" Type="VI" URL="../RFH-common_data_format.ctl"/>
 		<Item Name="RFH-libreVNA_data_format.ctl" Type="VI" URL="../RFH-libreVNA_data_format.ctl"/>
@@ -35,6 +39,6 @@
 		<Item Name="RFH-View-simple_common_selector.vi" Type="VI" URL="../RFH-View-simple_common_selector.vi"/>
 		<Item Name="RFH-View-sort_by_name.vi" Type="VI" URL="../RFH-View-sort_by_name.vi"/>
 	</Item>
-	<Item Name="RFH-test.vi" Type="VI" URL="../RFH-test.vi"/>
+	<Item Name="RFH-fileextension_def.vi" Type="VI" URL="../RFH-fileextension_def.vi"/>
 	<Item Name="RFH-View-sort_by_name_comp.vi" Type="VI" URL="../RFH-View-sort_by_name_comp.vi"/>
 </Library>
