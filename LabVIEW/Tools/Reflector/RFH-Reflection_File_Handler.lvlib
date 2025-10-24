@@ -12,13 +12,13 @@
 		<Item Name="RFH-convert-libreVNA.vi" Type="VI" URL="../RFH-convert-libreVNA.vi"/>
 		<Item Name="RFH-convert-r140.vi" Type="VI" URL="../RFH-convert-r140.vi"/>
 		<Item Name="RFH-convert-r140andLibreVNA.vi" Type="VI" URL="../RFH-convert-r140andLibreVNA.vi"/>
+		<Item Name="RFH-convert-water_calib_file.vi" Type="VI" URL="../RFH-convert-water_calib_file.vi"/>
 	</Item>
 	<Item Name="read" Type="Folder">
 		<Item Name="RFH-read-common_format.vi" Type="VI" URL="../RFH-read-common_format.vi"/>
 		<Item Name="RFH-read-libreVNA.vi" Type="VI" URL="../RFH-read-libreVNA.vi"/>
 		<Item Name="RFH-read-R140.vi" Type="VI" URL="../RFH-read-R140.vi"/>
 		<Item Name="RFH-read_folder-common_format.vi" Type="VI" URL="../RFH-read_folder-common_format.vi"/>
-		<Item Name="RFH-save-common_format.vi" Type="VI" URL="../RFH-save-common_format.vi"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="RFH-test-write_readback.vi" Type="VI" URL="../RFH-test-write_readback.vi"/>
@@ -30,6 +30,8 @@
 		<Item Name="RFH-R140_data_format.ctl" Type="VI" URL="../RFH-R140_data_format.ctl"/>
 	</Item>
 	<Item Name="utility" Type="Folder">
+		<Item Name="RFH-allign_data.vi" Type="VI" URL="../RFH-allign_data.vi"/>
+		<Item Name="RFH-interpolate_data.vi" Type="VI" URL="../RFH-interpolate_data.vi"/>
 		<Item Name="RFH-utility-average_common_format.vi" Type="VI" URL="../RFH-utility-average_common_format.vi"/>
 		<Item Name="RFH-utility-common_selector.vi" Type="VI" URL="../RFH-utility-common_selector.vi"/>
 		<Item Name="RFH-utility-get_all_paths.vi" Type="VI" URL="../RFH-utility-get_all_paths.vi"/>
@@ -38,6 +40,10 @@
 		<Item Name="RFH-View-simple.vi" Type="VI" URL="../RFH-View-simple.vi"/>
 		<Item Name="RFH-View-simple_common_selector.vi" Type="VI" URL="../RFH-View-simple_common_selector.vi"/>
 		<Item Name="RFH-View-sort_by_name.vi" Type="VI" URL="../RFH-View-sort_by_name.vi"/>
+	</Item>
+	<Item Name="write" Type="Folder">
+		<Item Name="RFH-save-common_format.vi" Type="VI" URL="../RFH-save-common_format.vi"/>
+		<Item Name="RFH-save-water_calib.vi" Type="VI" URL="../RFH-save-water_calib.vi"/>
 	</Item>
 	<Item Name="RFH-fileextension_def.vi" Type="VI" URL="../RFH-fileextension_def.vi"/>
 	<Item Name="RFH-View-sort_by_name_comp.vi" Type="VI" URL="../RFH-View-sort_by_name_comp.vi"/>
